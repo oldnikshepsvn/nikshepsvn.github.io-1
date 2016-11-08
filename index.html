@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.2.3/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.2.3/css/bulma.min.css.map">
+  <link rel="stylesheet" href="css/main.css">
+  <!-- Importing Google Web Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Abel|Advent+Pro|Alex+Brush|Amatic+SC|Architects+Daughter|Bad+Script|Bungee+Hairline|Cabin+Sketch|Calligraffitti|Chathura|Cinzel|Cinzel+Decorative|Clicker+Script|Cormorant+Garamond|Cormorant+SC|Dancing+Script|Dosis:300,400|Exo:300,400|Farsan|Handlee|Hind|Inconsolata|Indie+Flower|Italianno|Josefin+Slab|Julius+Sans+One|Jura|Lekton|Loved+by+the+King|Marck+Script|Mountains+of+Christmas|Nixie+One|Nothing+You+Could+Do|Old+Standard+TT|Open+Sans+Condensed:300|Poiret+One|Reenie+Beanie|Sacramento|Shadows+Into+Light|Sue+Ellen+Francisco|Tangerine|VT323|Waiting+for+the+Sunrise|Walter+Turncoat|Yellowtail" rel="stylesheet"> 
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+</head>
+
+<body>
+<!-- LANDING PAGE FOR USERS -->
+  <div class = "LANDING">
+    <H1 id="title" class="animated fadeInDown" >NIKSHEP SVN</H1>
+    <div id="icons" class="animated fadeInUp">
+      <i class="fa fa-linkedin fa-3x" aria-hidden="true" style="margin-left:1.5%;"></i>
+      <i class="fa fa-github-square fa-3x" aria-hidden="true" style="margin-left:1.5%;"></i>
+      <i class="fa fa-envelope fa-3x" aria-hidden="true" style="margin-left:1.5%;"></i>
+      <i class="fa fa-pencil-square-o fa-3x" aria-hidden="true" style="margin-left:1.5%;"></i>
+    </div>
+   <H4 id="subtitle" ></H4>
+  </div>
+<!-- ABOUT ME PAGE -->
+  <div class="About">
+    <p id="descriptionheader" style="">PEOPLE CALL ME NICK. </p>
+    <p id="descriptionlines"  style="color:black;"> I'M A FIRST YEAR STUDENT AT THE <i class="fa fa-university" aria-hidden="true"></i>UNIVERSITY OF WATERLOO, STUDYING <i class="fa fa-laptop" aria-hidden="true"></i>COMPUTER SCIENCE. </p>
+
+      <p id="descriptionlines"  style="color:black;">  I'VE WORKED AS A WEB DEVELOPER AT BIZ DOORS, AND SPENT MY TIME THERE BUILDING THIER WEBSITE FROM SCRATCH.</p>
+      <p id="descriptionlines"  style="color:black;">  I'M CURRENTLY WORKING ON ECHO AND TIMESINK. CHECK THEM OUT, THEY'RE PRETTY RAD.</p>
+      <p id="descriptionlines"  style="color:black;"> I'M EXPERIENCED WITH FRONT-END WEB DEVELOPMENT BUT I'M ALSO EXPLORING THE BACK-END WITH MEAN STACK.</p>
+      <p id="descriptionlines"  style="color:black;"> <br><br>I'M CURRENTLY LEARNING JAPANESE AND HOW TO BEATBOX.<br><br>I ALSO LOVE COOKIES, THE RAIN, AND TALKING TO PEOPLE. FEEL FREE TO HIT ME UP :) </p>
+  </div>
+    
+    <!-- ABOUT ME PAGE -->
+  <div class="Projects">
+    <p id="projhead"> PROJECTS</p>
+
+    <div class="columns">
+    <div class="column" >
+    <img src="placeholder.png" class="projimg"/> 
+      <p class="descriptionproj" > AIRLINE RESERVERVATION <br> SYSTEM</p>
+    </div>
+    <div class="column" >
+      <img src="echo.png" class="projimg" /> 
+      <p class="descriptionproj"> ECHO </p>
+    </div>
+    <div class="column">
+    <img src="placeholder.png" class="projimg" /> 
+      <p class="descriptionproj"> WATSWAPPER </p>
+    </div>
+    </div>
+    </div>
+
+    <div class="Creative">
+    <p id="fintitle" style=""> I READ. I WRITE - AND I DON'T BITE! </p>
+    <p id="description" style="color:black; position:relative; top:20%;"> CHECK OUT MY <u style="font-size:120%">BLOG</u>, MY <u style="font-size:120%">BUCKET LIST</u> AND MY <u style="font-size:120%">TO-READS</u>.<br><br> ALSO FEEL FREE TO HIT ME UP IF YOU WANT TO WORK WITH ME OR JUST HAVE A CHAT! I WOULD LOVE TO TALK </p>
+    <p id="findef" style=""><u> RESUME </u></p>
+    <p id="findef" style="color:black; position:relative; top:30%; font-size:20px; font-family:'Poiret One';">CLICK TO SEE</p>
+
+    </div>
+
+  </div>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.4/typed.min.js"></script>
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+
+  <script>
+  setTimeout(function() {
+    $(function(){
+        $("#subtitle").typed({
+            strings: ["STUDENT | DEVELOPER | EXPLORER"],
+            typeSpeed: 10
+        });
+    });
+}, 1000);
+</script>
+</body>
+</html>

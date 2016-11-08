@@ -1,0 +1,244 @@
+	/* 
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Bungee Hairline', cursive;
+	font-family: 'Cormorant Garamond', serif;
+	font-family: 'Indie Flower', cursive;
+	font-family: 'Inconsolata', monospace;
+	font-family: 'Dosis', sans-serif;
+	font-family: 'Hind', sans-serif;
+	font-family: 'Abel', sans-serif;
+	font-family: 'Amatic SC', cursive;
+	font-family: 'Shadows Into Light', cursive;
+	font-family: 'Mountains of Christmas', cursive;
+	font-family: 'Dancing Script', cursive;
+	font-family: 'Exo', sans-serif;
+	font-family: 'Architects Daughter', cursive;
+	font-family: 'Josefin Slab', serif;
+	font-family: 'Poiret One', cursive;
+	font-family: 'Cinzel', serif;
+	font-family: 'Old Standard TT', serif;
+	font-family: 'Yellowtail', cursive;
+	font-family: 'Handlee', cursive;
+	font-family: 'Tangerine', cursive;
+	font-family: 'Bad Script', cursive;
+	font-family: 'Nothing You Could Do', cursive;
+	font-family: 'Sacramento', cursive;
+	font-family: 'VT323', monospace;
+	font-family: 'Alex Brush', cursive;
+	font-family: 'Calligraffitti', cursive;
+	font-family: 'Julius Sans One', sans-serif;
+	font-family: 'Jura', sans-serif;
+	font-family: 'Farsan', cursive;
+	font-family: 'Nixie One', cursive;
+	font-family: 'Marck Script', cursive;
+	font-family: 'Reenie Beanie', cursive;
+	font-family: 'Cabin Sketch', cursive;
+	font-family: 'Advent Pro', sans-serif;
+	font-family: 'Walter Turncoat', cursive;
+	font-family: 'Waiting for the Sunrise', cursive;
+	font-family: 'Sue Ellen Francisco', cursive;
+	font-family: 'Cinzel Decorative', cursive;
+	font-family: 'Cormorant SC', serif;
+	font-family: 'Italianno', cursive;
+	font-family: 'Chathura', sans-serif;
+	font-family: 'Lekton', sans-serif;
+	font-family: 'Clicker Script', cursive;
+	font-family: 'Loved by the King', cursive;
+	*/
+	html,body{
+		width: 100%;
+		height: 100%;	
+		
+	}
+	.LANDING
+	{
+		width:100%;
+		height: 100%;
+		background:url(http://andreiserban.me/images/bg.jpeg) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		filter: blur(0px);
+	}
+
+	.About{
+		width: 100%;
+		height: 100%;
+		background:white;
+	}
+
+	.Projects
+	{
+		width: 100%;
+		height: 100%;
+		background:#222222;
+	}
+	.Creative
+	{
+		width: 100%;
+		height: 100%;
+		background:white;
+	}
+
+	#title
+	{
+
+		font-family: 'Poiret One';
+		font-weight: lighter;
+		font-size: 770%;
+		position: relative;
+		top:33%;
+		text-align: center;
+		filter: blur(0px);
+		color:white;
+	}
+	.fa{
+		position:relative;
+		top:7px;
+	}
+
+	#subtitle
+	{
+		color:white;
+		font-family: 'VT323';
+		/* possibly use Amatic SC */
+		position: relative;
+		top: 30%;
+		font-size: 40px;
+		letter-spacing: 2px;
+		text-align: center;
+		
+	}
+
+
+	#description
+	{
+		color:white;
+		font-family: 'VT323';
+		/* possibly use Amatic SC */
+		position: relative;
+		top: 5%;
+		font-size: 28px;
+		letter-spacing: 0;
+		text-align: center;
+		
+	}
+	.descriptionproj
+	{
+		color:white;
+		font-size:40px;font-family:'VT323';
+		/* possibly use Amatic SC */
+		position: relative;
+		top: 5%;
+		font-size: 28px;
+		letter-spacing: 0;
+		text-align: center;
+	}
+	.columns{
+		position:relative; top:20%;text-align: center;
+	}
+
+	.projimg
+	{
+		width: 300px; height: 300px;
+	}
+	.projtitle{
+		font-size:60px;font-family:'Poiret one';
+	}
+
+
+	#projhead
+	{
+		font-family: 'Poiret One';
+		position: relative;
+		top: 10%;
+		font-size:80px;
+		text-align: center;	
+		color:white;
+	}
+
+	#icons {
+		color:white;
+		position: relative;
+		text-align: center;
+		top:47%;
+	}
+	#findef
+	{
+
+		font-size: 28px;
+		letter-spacing: 0;
+		text-align: center;
+		color:black; position:relative; top:30%; font-size:100px; font-family:'Poiret One';
+	}
+
+	#fintitle{
+
+		/* possibly use Amatic SC */
+		position: relative;
+		top: 5%;
+		
+		letter-spacing: 0;
+		text-align: center;
+		font-size:60px;font-family:'Poiret one'; color:black;  
+	}
+	#descriptionlines
+	{
+		color:white;
+		font-family: 'VT323';
+		/* possibly use Amatic SC */
+		position: relative;
+		top:15%	;
+		margin-top: 2%;
+		font-size: 28px;
+		letter-spacing: 0;
+		text-align: center;
+		
+	}
+	#descriptionheader
+	{
+		font-size:60px;
+		font-family:'Poiret one';
+		color:black;
+		/* possibly use Amatic SC */
+		position: relative;
+		top: 5%;
+		
+		letter-spacing: 0;
+		text-align: center;
+		
+	}
+	.ghost-button-semi-transparent {
+		display: inline-block;
+		width: 150px;
+		font-family: 'Architects Daughter';
+		font-size:22px;
+		height: 45px;
+		padding: 8px;
+		color: white;
+		border: 0.5px solid #fff;
+		text-align: center;
+		outline: none;
+		text-decoration: none;
+		transition: background-color 0.2s ease-out,
+		border-color 0.2s ease-out;
+	}
+	.ghost-button-semi-transparent:hover,
+	.ghost-button-semi-transparent:active {
+		background-color: #fff; /* fallback */
+		background-color: rgba(255, 255, 255, 0.4);
+		border-color: #fff; /* fallback */
+		border-color: rgba(255, 255, 255, 0.4);
+		transition: background-color 0.3s ease-in,
+		border-color 0.3s ease-in;
+	}
+
+	.invi
+	{
+		color:white;
+	}
+	.black
+	{
+		color:black;
+	}
